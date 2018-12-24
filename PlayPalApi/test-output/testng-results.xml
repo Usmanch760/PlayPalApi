@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Onboarding_Suit" duration-ms="16097" started-at="2018-12-24T09:58:12Z" finished-at="2018-12-24T09:58:28Z">
+    <groups>
+    </groups>
+    <test name="Test_onboarding" duration-ms="4542" started-at="2018-12-24T09:58:12Z" finished-at="2018-12-24T09:58:17Z">
+      <class name="com.test.automation.PlaypalApi.service.Onboarding">
+        <test-method status="PASS" signature="TC001_authentication()[pri:2, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0]" name="TC001_authentication" duration-ms="3309" started-at="2018-12-24T14:58:12Z" finished-at="2018-12-24T14:58:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_authentication -->
+        <test-method status="PASS" signature="TC006_listAllUsers()[pri:2, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0]" name="TC006_listAllUsers" duration-ms="1210" started-at="2018-12-24T14:58:16Z" finished-at="2018-12-24T14:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC006_listAllUsers -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:16Z" finished-at="2018-12-24T14:58:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_authentication status=SUCCESS method=Onboarding.TC001_authentication()[pri:2, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:17Z" finished-at="2018-12-24T14:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC006_listAllUsers status=SUCCESS method=Onboarding.TC006_listAllUsers()[pri:2, instance:com.test.automation.PlaypalApi.service.Onboarding@20e2cbe0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.automation.PlaypalApi.service.Onboarding -->
+    </test> <!-- Test_onboarding -->
+    <test name="userProfile" duration-ms="11540" started-at="2018-12-24T09:58:17Z" finished-at="2018-12-24T09:58:28Z">
+      <class name="com.test.automation.PlaypalApi.service.UserProfile">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="startReport" is-config="true" duration-ms="185" started-at="2018-12-24T14:58:12Z" finished-at="2018-12-24T14:58:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="TC007_load_user_profile()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="TC007_load_user_profile" duration-ms="627" started-at="2018-12-24T14:58:17Z" finished-at="2018-12-24T14:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_load_user_profile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:17Z" finished-at="2018-12-24T14:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC007_load_user_profile status=SUCCESS method=UserProfile.TC007_load_user_profile()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC007_update_user_allergies()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="TC007_update_user_allergies" duration-ms="715" started-at="2018-12-24T14:58:17Z" finished-at="2018-12-24T14:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC007_update_user_allergies -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="16" started-at="2018-12-24T14:58:18Z" finished-at="2018-12-24T14:58:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC007_update_user_allergies status=SUCCESS method=UserProfile.TC007_update_user_allergies()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC008_load_user_allergies()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="TC008_load_user_allergies" duration-ms="1172" started-at="2018-12-24T14:58:18Z" finished-at="2018-12-24T14:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_load_user_allergies -->
+        <test-method status="PASS" signature="TC008_load_user_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="TC008_load_user_diseases" duration-ms="569" started-at="2018-12-24T14:58:19Z" finished-at="2018-12-24T14:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_load_user_diseases -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:19Z" finished-at="2018-12-24T14:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_load_user_allergies status=SUCCESS method=UserProfile.TC008_load_user_allergies()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:20Z" finished-at="2018-12-24T14:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_load_user_diseases status=SUCCESS method=UserProfile.TC008_load_user_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TC008_load_user_family_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="TC008_load_user_family_diseases" duration-ms="539" started-at="2018-12-24T14:58:20Z" finished-at="2018-12-24T14:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC008_load_user_family_diseases -->
+        <test-method status="PASS" signature="get_ethnicities()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="get_ethnicities" duration-ms="1114" started-at="2018-12-24T14:58:20Z" finished-at="2018-12-24T14:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_ethnicities -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:20Z" finished-at="2018-12-24T14:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC008_load_user_family_diseases status=SUCCESS method=UserProfile.TC008_load_user_family_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="1" started-at="2018-12-24T14:58:22Z" finished-at="2018-12-24T14:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_ethnicities status=SUCCESS method=UserProfile.get_ethnicities()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="get_medication_types()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="get_medication_types" duration-ms="1026" started-at="2018-12-24T14:58:22Z" finished-at="2018-12-24T14:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_medication_types -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="1" started-at="2018-12-24T14:58:23Z" finished-at="2018-12-24T14:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_medication_types status=SUCCESS method=UserProfile.get_medication_types()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="get_medications()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="get_medications" duration-ms="2172" started-at="2018-12-24T14:58:23Z" finished-at="2018-12-24T14:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_medications -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:25Z" finished-at="2018-12-24T14:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=get_medications status=SUCCESS method=UserProfile.get_medications()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="update_user_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="update_user_diseases" duration-ms="1217" started-at="2018-12-24T14:58:25Z" finished-at="2018-12-24T14:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user_diseases -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:26Z" finished-at="2018-12-24T14:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_user_diseases status=SUCCESS method=UserProfile.update_user_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="update_user_family_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="update_user_family_diseases" duration-ms="1157" started-at="2018-12-24T14:58:26Z" finished-at="2018-12-24T14:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user_family_diseases -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:27Z" finished-at="2018-12-24T14:58:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_user_family_diseases status=SUCCESS method=UserProfile.update_user_family_diseases()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="update_user_medications()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="update_user_medications" duration-ms="1166" started-at="2018-12-24T14:58:27Z" finished-at="2018-12-24T14:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_user_medications -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-24T14:58:28Z" finished-at="2018-12-24T14:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=update_user_medications status=SUCCESS method=UserProfile.update_user_medications()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.test.automation.PlaypalApi.service.UserProfile@46d56d67]" name="endReport" is-config="true" duration-ms="406" started-at="2018-12-24T14:58:28Z" finished-at="2018-12-24T14:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.test.automation.PlaypalApi.service.UserProfile -->
+    </test> <!-- userProfile -->
+  </suite> <!-- Onboarding_Suit -->
+</testng-results>

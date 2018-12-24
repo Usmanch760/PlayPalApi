@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Onboarding_Suit]">
+  <test name="userProfile(failed)">
+    <classes>
+      <class name="com.test.automation.PlaypalApi.service.UserProfile">
+        <methods>
+          <include name="TC008_load_user_family_diseases"/>
+          <include name="update_user_family_diseases"/>
+          <include name="update_user_medications"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="update_user_diseases"/>
+          <include name="TC007_update_user_allergies"/>
+          <include name="TC008_load_user_allergies"/>
+          <include name="getResult"/>
+          <include name="TC008_load_user_diseases"/>
+        </methods>
+      </class> <!-- com.test.automation.PlaypalApi.service.UserProfile -->
+      <class name="com.test.automation.PlaypalApi.service.Onboarding">
+        <methods>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.test.automation.PlaypalApi.service.Onboarding -->
+    </classes>
+  </test> <!-- userProfile(failed) -->
+</suite> <!-- Failed suite [Onboarding_Suit] -->

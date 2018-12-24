@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Onboarding_Suit">
+  <test thread-count="5" name="Test_onboarding">
+    <classes>
+      <class name="com.test.automation.PlaypalApi.service.Onboarding"/>
+      
+    </classes>
+  </test> <!-- Test_onboarding -->
+    <test name="userProfile">
+	 <classes>
+	  <class name="com.test.automation.PlaypalApi.service.UserProfile"/>
+	 </classes>
+   </test>
+</suite> <!-- Onboarding_Suit -->
+
+
